@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "test": "npm run lint && mocha ./node_modules/html-tests/task-stub/test && mocha ./node_modules/html-tests/extra-tests/task-1",
+    "test": "npm run lint && mocha ./node_modules/html-tests/task-stub/test",
     "lint": "stylelint *.css **/*.css"
   },
   "dependencies": {
