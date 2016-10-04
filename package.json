@@ -1,14 +1,13 @@
 {
   "private": true,
   "scripts": {
-    "test": "npm run lint && mocha ./node_modules/html-tests/task-stub/test",
+    "test": "npm run lint && mocha ./node_modules/html-tests/task-stub/test && mocha ./node_modules/html-tests/extra-tests/task-1",
     "lint": "stylelint *.css **/*.css"
   },
   "dependencies": {
     "html-tests": "^1.0.0",
     "mocha": "3.0.2",
-    "should": "11.1.0",
     "stylelint": "7.3.1",
-    "stylelint-config-hrundel": "1.0.1"
+    "stylelint-config-hrundel": "latest"
   }
 }
